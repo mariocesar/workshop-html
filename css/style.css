@@ -1,0 +1,70 @@
+/* reset styles */
+h1, h2, h3, h4 {
+    margin: 0;
+    font-size: 1rem;
+}
+
+html {
+    font-family: Helvetica, arial, sans;
+    font-size: 12px;
+}
+
+body {
+    margin: 0;
+}
+
+/* My styles */
+
+#header-site {
+   display: flex;
+   justify-content: space-between;
+   padding: 3rem 0;
+}
+
+#navigation .btn {
+    display: inline-block;
+    padding: .75rem 1.5rem;
+    color: #505050;
+    font-size: .75rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+#navigation .btn.btn-lead {
+    border: 2px solid #F44336;    
+    border-radius: 4px;
+    color: #F44336;
+}
+
+#navigation .btn.btn-lead:hover {
+    border: 2px solid #2196F3;    
+    color: #2196F3;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#main-lead {
+    color: #5d5d5d;
+    margin: 6rem 0;
+    margin-right: 33%;
+}
+
+#main-lead h2 {
+    color: #565656;
+    font-size: 2rem;
+    font-weight: 100;
+}
+
+#main-lead p {
+    font-size: 1.25rem;
+    font-weight: 100;
+    line-height: 1.5;
+}
+
+#main-content {
+    background-color: #f7f7f7;
+}
